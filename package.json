@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "publish:canary": "echo PUBLISH-CANARY",
+    "publish:release": "echo PUBLISH-RELEASE",
     "build:containers:release": "echo BUILD-CONTAINERS-RELEASE",
     "build:containers:canary": "echo BUILD-CONTAINERS-CANARY",
     "test": "echo TEST"
