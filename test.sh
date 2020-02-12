@@ -1,1 +1,1 @@
-[[ ! $TRAVIS_COMMIT_MESSAGE =~ skip-deploy ]] && echo "true";
+[[ $TRAVIS_COMMIT_MESSAGE != *"skip-deploy"* ]] && echo "true";
