@@ -1,0 +1,13 @@
+{
+  "name": "travis-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Daniel Kmak <neverkuzi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "publish:canary": "echo PUBLISH-CANARY",
+    "build:containers:release": "echo BUILD-CONTAINERS-RELEASE",
+    "build:containers:canary": "echo BUILD-CONTAINERS-CANARY",
+    "test": "echo TEST"
+  }
+}
